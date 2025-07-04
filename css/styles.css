@@ -101,6 +101,9 @@ img {
   height: 312px;
   padding-top: 100px;
 }
+.foto-footer {
+  padding: 32px 16px;
+}
 
 .footer p {
   max-width: 264px;
@@ -201,9 +204,9 @@ img {
   box-sizing: border-box;
   background-color: white;
 }
-.section3 li.team .header3 {
+/* .section3 li.team .header3 {
   margin-top: 32px;
-}
+} */
 .section3 li.team p {
   margin-bottom: 32px;
 }
