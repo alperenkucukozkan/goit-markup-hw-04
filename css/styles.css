@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
   color: #434455;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -62,7 +62,7 @@ img {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .address {
@@ -117,20 +117,20 @@ img {
 
 .header1 {
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 60px;
   text-align: center;
 }
 .header2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
   text-align: center;
 }
 .header3 {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
 }
@@ -283,7 +283,7 @@ img {
 
 .web {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   color: #4d5ae5;
@@ -291,7 +291,7 @@ img {
 
 .studio {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   color: #2e2f42;
@@ -299,14 +299,14 @@ img {
 }
 .studio2 {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   color: #f4f4fd;
   padding: 0.2px;
 }
 
-.icon-1 {
+.icon-border {
   width: 264px;
   height: 112px;
   border: 1px solid #8e8f99;
@@ -356,7 +356,12 @@ img {
   background-color: #4d5ae5;
 }
 .social-links .link:hover {
-  background-color: #273097;
+  background-color: #404BBF;
+  transition: background-color 0.3s;
+}
+.social-links .link:hover .icon {
+  fill: #F4F4FD;
+  transition: fill 0.3s;
 }
 
 .port {
