@@ -155,6 +155,7 @@ img {
   padding: 20px;
   max-width: 1440px;
   margin: 0 auto;
+  box-shadow: 0 4px 4px rgba(46, 47, 66, 0.7);
 }
 .section1 .header1 {
   max-width: 496px;
@@ -313,6 +314,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #f4f4fd;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .text {
   position: relative;
@@ -342,6 +344,7 @@ img {
   flex-shrink: 0;
   align-self: center;
   padding-top: 16px;
+  
 }
 .social-links .link {
   display: flex;
@@ -354,4 +357,8 @@ img {
 }
 .social-links .link:hover {
   background-color: #273097;
+}
+
+.port {
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
 }
